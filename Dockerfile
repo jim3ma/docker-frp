@@ -1,7 +1,7 @@
 FROM alpine:3.4
 MAINTAINER Jim Ma <majinjing3@gmail.com>
 
-ENV FRP_VERSION 0.9.1
+ENV FRP_VERSION 0.9.3
 
 RUN apk add --no-cache --update wget ca-certificates \
     && wget \
