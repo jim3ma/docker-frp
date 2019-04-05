@@ -1,7 +1,7 @@
-FROM alpine:3.7
+FROM alpine:3.9
 LABEL maintainer Jim Ma <majinjing3@gmail.com>
 
-ENV FRP_VERSION 0.14.1
+ENV FRP_VERSION 0.25.3
 
 RUN apk add --no-cache --update wget ca-certificates \
     && wget \
